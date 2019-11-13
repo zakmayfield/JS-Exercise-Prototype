@@ -168,9 +168,9 @@ const lilBaby = new Baby('Timmy', '2 months', 'sutffed horse');
 
   In your own words explain the four principles for the "this" keyword below:
   1. Implicit, is referring to what is to the left of the dot * apple.isRipe() * this would be referring to apple.
-  2. 
-  3. 
-  4. 
+  2. Explicit, is referring to what the this is referring to when being called not immediately
+  3. .call is telling the this to execute immediately
+  4. .bind will apply the this, and then you can call it later
 */
 
 
